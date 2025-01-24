@@ -36,7 +36,7 @@ conda install pytorch==1.10.1 torchvision==0.11.2 torchaudio==0.10.1 cudatoolkit
 ├── val: VisDrone2019-DET-val/images  # val images (relative to 'path')  548 images
 └── test: VisDrone2019-DET-test/images  # test images (optional)  1610 images
  ```
-3. **Convert Labels to YOLO Format**  
+2. **Convert Labels to YOLO Format**  
    Run the `VisDrone2YOLO_label.py` script to convert the dataset labels to YOLO format. After conversion, your dataset directory structure should resemble the following:
  ```
 VisDrone2019-DET-train
@@ -48,7 +48,7 @@ VisDrone2019-DET-val
  ├── images
  └── labels
 ```
-4. **Download weight file**
+3. **Download weight file**
 
    Download our best weights <a href="https://github.com/VisDrone/VisDrone-Dataset" target="_blank">SliNet_12slice</a> and the baseline weights from <a href="https://github.com/cv516Buaa/tph-yolov5" target="_blank">yolov5l-xs-2.pt</a>.
 
@@ -58,7 +58,7 @@ VisDrone2019-DET-val
    python test.py
    ```
  
-6. **Command for Training**
+5. **Command for Training**
    ```
    python train.py
    ```
