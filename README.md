@@ -52,18 +52,30 @@ VisDrone2019-DET-val
 
    Download our best weights <a href="https://drive.google.com/drive/folders/1YVvkL0f-YzSw2E4UKXgseeRjHs9R6-Q7?usp=sharing" target="_blank">SliNet_12slice</a> and the baseline weights from <a href="https://github.com/cv516Buaa/tph-yolov5" target="_blank">yolov5l-xs-2.pt</a>.
 
-
-4. **Command for Testing**
+4. **Command for Data Augmentation(Fixed slicing size)**
+   
+   If you would like access to the preprocessed sliced dataset used in our paper, feel free to contact us via email.
+   
+   ```
+   ├──Update the root path
+   python tools/slice_visdrone.py
+   ```
+5. **Command for Testing**
    ```
    python test.py
    ```
  
-5. **Command for Training**
+6. **Command for Training**
    ```
    python train.py
    ```
 
-
+7. **Command for Visualization**
+   ```
+   ├──Update the root path
+   python Grad-CAM++.py
+   ```
+   
 
 ### Interactive Visualization & Inspection
 
