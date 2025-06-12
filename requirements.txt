@@ -33,3 +33,4 @@ albumentations>=1.0.3
 # roboflow
 thop  # FLOPs computation
 ensemble_boxes
+sahi
