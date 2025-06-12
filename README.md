@@ -19,10 +19,10 @@ Project page: https://ieeexplore.ieee.org/document/10460167/
 
 
 ### Installation
-From conda:
 ```
 conda install opencv-python==4.6.0.66
 conda install pytorch==1.10.1 torchvision==0.11.2 torchaudio==0.10.1 cudatoolkit=11.3 -c pytorch -c conda-forge
+pip install -r requirements.txt
 ```
 
 
@@ -50,7 +50,7 @@ VisDrone2019-DET-val
 ```
 3. **Download weight file**
 
-   Download our best weights <a href="https://github.com/VisDrone/VisDrone-Dataset" target="_blank">SliNet_12slice</a> and the baseline weights from <a href="https://github.com/cv516Buaa/tph-yolov5" target="_blank">yolov5l-xs-2.pt</a>.
+   Download our best weights <a href="https://drive.google.com/drive/folders/1YVvkL0f-YzSw2E4UKXgseeRjHs9R6-Q7?usp=sharing" target="_blank">SliNet_12slice</a> and the baseline weights from <a href="https://github.com/cv516Buaa/tph-yolov5" target="_blank">yolov5l-xs-2.pt</a>.
 
 
 4. **Command for Testing**
