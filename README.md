@@ -92,7 +92,7 @@ Comparison of our method **SliNet** with other state-of-the-art object detection
 
 
 
-### Interactive Visualization & Inspection
+### Visualization
 
 <img width="700"  src="https://github.com/Gemini-wt/ASAHI/blob/6e315492129022d1271910bf391f147ab1095dca/show/0000216_00520_d_0000001.png">
 <img width="700"  src="https://github.com/Gemini-wt/ASAHI/blob/6e315492129022d1271910bf391f147ab1095dca/show/0000271_05401_d_0000399.png">
