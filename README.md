@@ -79,16 +79,16 @@ VisDrone2019-DET-val
 ## 📊 Comparison on VisDrone2019-DET-val
 
 Comparison of our method **SliNet** with other state-of-the-art object detection methods on **VisDrone2019-DET-val**.
-| Models                                     | mAP  | mAP50 | img/s   | GFLOPs  |
-|--------------------------------------------|------|--------|---------|---------|
-| Cascade R-CNN + NWD         | -    | 38.5   | -       | -       |
-| SAHI                 | 34.9 | 55.1   | 3.1262  | -       |
-| QueryDet                  | 33.9 | 56.1   | -       | -       |
-| Focus-and-Detect | 42.0 | 66.1   | 0.7342  | -       |
-| PP-YOLOE-l               | 29.2 | 47.3   | **10.5786** | **115.7** |
-| PP-YOLOE-largesize-l      | 43.3 | 66.7   | 3.9638  | -       |
-| TPH-YOLOV5 (baseline) | 44.4 | 63.6   | 7.3067  | 146.8   |
-| **SliNet (ours)**                          | **46.4** | **67.1** | 6.0889  | 167.4   |
+| Models                                     | mAP  | mAP50 |
+|--------------------------------------------|------|--------|
+| Cascade R-CNN + NWD         | -    | 38.5   | 
+| SAHI                 | 34.9 | 55.1   | 
+| QueryDet                  | 33.9 | 56.1   | 
+| Focus-and-Detect | 42.0 | 66.1   | 
+| PP-YOLOE-l               | 29.2 | 47.3   |
+| PP-YOLOE-largesize-l      | 43.3 | 66.7   | 
+| TPH-YOLOV5 (baseline) | 44.4 | 63.6   | 
+| **SliNet (ours)**                          | **46.4** | **67.1** |
 
 
 
